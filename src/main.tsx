@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
-import Footer from "./components/layout/Footer";
-import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer/Footer";
+import Navbar from "./components/layout/Navbar/Navbar";
 import "./normalize.css";
 import Portfolio from "./pages/Portfolio";
 

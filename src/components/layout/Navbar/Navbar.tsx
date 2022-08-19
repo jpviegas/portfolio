@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import img50 from "../../assets/50x50.png";
+import img50 from "../../../assets/50x50.png";
 
 function Navbar() {
   return (
