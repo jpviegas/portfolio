@@ -32,7 +32,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="portfolio-overview" className="nav-link">
+              <Link to="/overview" className="nav-link">
                 Portfolio
               </Link>
             </li>

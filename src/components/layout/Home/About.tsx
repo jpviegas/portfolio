@@ -20,9 +20,12 @@ function About() {
             voluptatibus, quibusdam totam.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            eius at saepe. Magni quam unde quas quod adipisci, non eligendi
-            nesciunt omnis cumque in, magnam itaque veritatis hic quae aliquid?
+            Desenvolvedor full-stack.
+            <br />
+            Front end: conhecimento em HTML semântico/acessível, CSS,
+            JavaScript/TypeScript, React.
+            <br />
+            Back end: conhecimento em Node.js, MySQL, MongoDB.
           </p>
         </div>
       </div>
