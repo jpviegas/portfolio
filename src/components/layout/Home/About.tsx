@@ -2,7 +2,7 @@ import img690 from "../../../assets/690x400.png";
 
 function About() {
   return (
-    <div className="container mt-4">
+    <>
       <h1 className="display-4 mb-4">
         João Paulo de Barros Viegas
         <small className="d-block text-muted">front-end developer</small>
@@ -12,7 +12,7 @@ function About() {
           <img src={img690} alt="" className="img-fluid rounded" />
         </div>
         <div className="col-12 col-lg-6">
-          <h2>About</h2>
+          <h2>About Me</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
             similique itaque error illo cum voluptatum. Eaque laboriosam eveniet
@@ -26,7 +26,7 @@ function About() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
