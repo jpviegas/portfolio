@@ -25,6 +25,7 @@
       "warn",
       { "extensions": [".ts", ".tsx", ".js", ".jsx"] }
     ],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "import/extensions": ["error", "never"]
   }
 }
