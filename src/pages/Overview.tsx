@@ -9,12 +9,11 @@ function Overview() {
   return (
     <div className="container mt-4">
       <div className="row">
-        {/* <div className="col-12 col-md-6 col-xl-4 mb-4"> */}
         <Card
           tags={["HTML", "CSS", "JavaScript"]}
           imgSrc={p50d}
           title="50 Projects in 50 Days"
-          desc="50 fast tricks"
+          desc="Projeto que engloba variados pequenos projetos/páginas/efeitos."
           link="https://jp-50projects50days.netlify.app/"
           dateCreated="01/08/2022"
         />
@@ -22,27 +21,26 @@ function Overview() {
           tags={["React"]}
           imgSrc={todoapp}
           title="Todo App"
-          desc="Todo App from frontendmentor.io"
+          desc="Todo App baseado no desafio do frontendmentor.io"
           link="https://jp-todoapp.netlify.app/"
-          dateCreated="01/08/2022"
+          dateCreated="12/08/2022"
         />
         <Card
           tags={["CSS"]}
           imgSrc={pixelart}
           title="Pixel Art"
-          desc="Make old school pixel art"
+          desc="Crie desenhos 'old school' em pixel arte"
           link="https://jp-pixelart.netlify.app/"
-          dateCreated="01/08/2022"
+          dateCreated="10/08/2022"
         />
         <Card
           tags={["React", "mySQL"]}
           imgSrc={ebytr}
           title="Ebytr"
-          desc="Todo App with mySql back end"
+          desc="Todo App utilizando mySql no back end"
           link="https://github.com/jpviegas/ebytr"
-          dateCreated="01/08/2022"
+          dateCreated="05/07/2022"
         />
-        {/* </div> */}
       </div>
     </div>
   );

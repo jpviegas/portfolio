@@ -5,14 +5,14 @@ function About() {
     <>
       <h1 className="display-4 mb-4">
         João Paulo de Barros Viegas
-        <small className="d-block text-muted">front-end developer</small>
+        <small className="d-block text-muted">Desenvolvedor full-stack</small>
       </h1>
       <div className="row mb-4">
         <div className="col-12 col-lg-6 mb-4 mb-lg-0">
           <img src={img690} alt="" className="img-fluid rounded" />
         </div>
         <div className="col-12 col-lg-6">
-          <h2>About Me</h2>
+          <h2>Sobre mim</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi
             similique itaque error illo cum voluptatum. Eaque laboriosam eveniet

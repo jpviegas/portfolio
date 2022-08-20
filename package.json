@@ -10,7 +10,9 @@
     "eslint": "eslint .eslintrc.json ./src/**/*.tsx",
     "eslint:fix": "eslint .eslintrc.json ./src/**/*.tsx --fix",
     "stylelint": "stylelint --config .stylelintrc.json ./src/**/*.css",
-    "stylelint:fix": "stylelint --config .stylelintrc.json ./src/**/*.css --fix"
+    "stylelint:fix": "stylelint --config .stylelintrc.json ./src/**/*.css --fix",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "bootstrap": "^5.2.0",
@@ -24,6 +26,7 @@
     "@typescript-eslint/eslint-plugin": "^5.33.1",
     "@typescript-eslint/parser": "^5.33.1",
     "@vitejs/plugin-react": "^2.0.1",
+    "@vitest/coverage-c8": "^0.22.1",
     "eslint": "^8.22.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
@@ -39,6 +42,7 @@
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0",
     "typescript": "^4.6.4",
-    "vite": "^3.0.7"
+    "vite": "^3.0.7",
+    "vitest": "^0.22.1"
   }
 }

@@ -32,10 +32,10 @@ function Card({ tags, imgSrc, title, desc, link, dateCreated }: ICard) {
             rel="noopener noreferrer"
             className="btn btn-primary w-100 stretched-link"
           >
-            Go to {title}
+            Ir para {title}
           </a>
         </div>
-        <div className="card-footer small">Created {dateCreated}</div>
+        <div className="card-footer small">Criado em: {dateCreated}</div>
       </div>
     </div>
   );

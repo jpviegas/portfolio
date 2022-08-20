@@ -9,9 +9,9 @@ import FeaturedProjects from "../components/layout/Home/FeaturedProjects";
 function Portfolio() {
   document.title = "jpviegas | Portfolio";
   return (
-    <div className="container mt-4">
+    <main className="container mt-4">
       <About />
-      <h2>Featured Projects</h2>
+      <h2>Projectos em destaque</h2>
       <div className="row mb-4 sm-4">
         <FeaturedProjects
           link="https://jp-50projects50days.netlify.app/"
@@ -35,7 +35,7 @@ function Portfolio() {
         />
       </div>
       <Contact />
-    </div>
+    </main>
   );
 }
 
